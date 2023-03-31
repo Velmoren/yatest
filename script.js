@@ -38,10 +38,10 @@ const shareToVk = () => {
     // window.open('http://vk.com/share.php?url=%27+link+%27&title=%27+tltl+%27&description=%27+desc+%27&cmg=1', 'shareSite','width=550px,height=268px,resizable=yes,scrollbars=yes,left='+w_left+',top='+w_top);
 }
 
-document.getElementById('my-btn').innerHTML = VK.Share.button('https://отчетыдемо.президентскиегранты.рф/award/project/1825FE4C-3AA5-4319-B135-A2C7867439D2/about', {
-    url: 'xn--https://-97gjb8fwae9cb7frd.xn--80afcdbalict6afooklqi5o.xn--p1ai/award/project/1825FE4C-3AA5-4319-B135-A2C7867439D2/about',
-    title: 'Заголовок страницы',
-    description: 'asjdnaslkj a;slda фывфывфы вукпеук 67ш67ш',
-    noparse: false,
-    type: 'button_nocount'
-});
+// document.getElementById('my-btn').innerHTML = VK.Share.button('https://отчетыдемо.президентскиегранты.рф/award/project/1825FE4C-3AA5-4319-B135-A2C7867439D2/about', {
+//     url: 'xn--https://-97gjb8fwae9cb7frd.xn--80afcdbalict6afooklqi5o.xn--p1ai/award/project/1825FE4C-3AA5-4319-B135-A2C7867439D2/about',
+//     title: 'Заголовок страницы',
+//     description: 'asjdnaslkj a;slda фывфывфы вукпеук 67ш67ш',
+//     noparse: false,
+//     type: 'button_nocount'
+// });

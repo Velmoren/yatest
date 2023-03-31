@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,39 @@
     <script src="./script.js" defer></script>
     <title>Document</title>
 </head>
+
 <body>
     <script src="https://yastatic.net/share2/share.js"></script>
-    <div class="ya-share2" data-curtain data-shape="round" data-limit="3" data-services="vkontakte,telegram"></div>         
-    <div id="my-share">Поделиться</div>
+    <div class="ya-share2" data-curtain data-shape="round" data-limit="3" data-description="12312312312"
+        data-content="attr(data-description)" data-services="vkontakte,telegram"></div>
+    <div id="my-share" content="attr(data-description)">Поделиться</div>
 
-    <script type="text/javascript" src="https://vk.com/js/api/share.js?93" charset="windows-1251"></script>
+    <!-- <div class="ya-share2" data-curtain data-shape="round" data-limit="3" data-services="vkontakte,telegram"></div> -->
+    <div class="ya-share2" data-services="vkontakte,twitter,facebook,gplus" data-description="дескрипшен"
+        data-url="https://rgloss.ru/posti/post1.html" data-title="Преображение Виктории"
+        data-image="https://rgloss.ru/img/t1-1.jpg" data-content="attr(data-description)">
+    </div>
+    <!-- <script type="text/javascript" src="https://vk.com/js/api/share.js?93" charset="windows-1251"></script> -->
 
-    <div>
+    <!-- <div>
         <div id="my-btn"></div>
     </div>
 
-    <a href="https://vk.com/share.php?url=https://xn--d1abb2agexb7b3b.xn--80afcdbalict6afooklqi5o.xn--p1ai/award/project/1825FE4C-3AA5-4319-B135-A2C7867439D2/about" target="_blank">Поделиться ВКонтакте</a>
+    <a href="https://vk.com/share.php?url=https://xn--d1abb2agexb7b3b.xn--80afcdbalict6afooklqi5o.xn--p1ai/award/project/1825FE4C-3AA5-4319-B135-A2C7867439D2/about" target="_blank">Поделиться ВКонтакте</a> -->
+
+    <!-- Put this script tag to the <head> of your page -->
+    <script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
+
+    <!-- Put this script tag to the place, where the Share button will be -->
+    <!-- <script type="text/javascript">
+        document.write(VK.Share.button(false, {
+            type: "round_nocount",
+            text: "сохранить",
+            title: '123123123123',
+            description: 'asdasdasdasdasd'
+        }));
+    </script> -->
+    <a href="https://vk.com/share.php?url=https://minfin-myrtex.ru&title=Какой то текст&description=234234234234" target="_blank">Поделиться ВКонтакте</a>
 </body>
-</html> 
+
+</html>
